@@ -1,0 +1,653 @@
+/*
+Theme Name: Exertio child
+Theme URI: https://themeforest.net/user/scriptsbundle/portfolio
+Author: The ScriptsBundle team
+Author URI: http://scriptsbundle.com/
+Description: Exertio - Freelance Marketplace and Directory WordPress Theme is a premium WordPress Theme that allowed you to create and launch your Freelancing services and project posting website Like Freelance, Fiverr or upwork with commission based system.
+Requires at least: WordPress 5.2.4
+Version: 1.0.0
+Template:     exertio
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: exertio_child
+Tags: freelance, bidding, services, fiverr, 
+freelance marketplace, gigs, freelancing, upwork, guru, 
+peopelperhour, hiring, job posting, commission system, airbnb,
+ services, proposals, upwork clone, fiverr clone, projects
+*/
+
+.gc-calendar .gc-event {
+  cursor: pointer;
+}
+.content-wrapper .sb-dash-heading form {
+  float: right;
+  margin-top: -41px;
+}
+
+.widget-opening-hours {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #7f7f7f;
+  border: 1px solid #f5f5f5;
+  -webkit-box-shadow: 0 2px 22px 0 rgb(0 0 0 / 5%);
+  -ms-box-shadow: 0 2px 22px 0 rgba(0,0,0,.05);
+  -o-box-shadow: 0 2px 22px 0 rgba(0,0,0,.05);
+  -moz-box-shadow: 0 2px 22px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 22px 0 rgb(0 0 0 / 5%);
+  margin-top: 20px;
+}
+
+.main-section-bid {
+  background: #fff;
+  padding-bottom: 10px;
+  border-radius: 0 0 5px 5px;
+  padding: 20px 0;
+}
+
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ui-widget-content {
+    border: 1px solid #bbb;
+    background: #fff;
+    color: #555;
+}
+.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default;
+    font-size: 14px;
+}
+.ui-menu .ui-menu-item {
+  position: relative;
+  margin: 0;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  min-height: 0;
+  list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}
+
+
+#fl_bussiness_hours .pull-right {
+    float: right !important;
+    margin-top: 30px;
+}
+
+
+.business-hours-post {    
+    border: 1px solid #bce8f1;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+
+}
+
+.form-group.has-feedback label {
+  display: inline-block;
+}
+
+.business_hours_container .pull-right {
+  float: right !important;
+}
+.business_hours_container  .list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;s
+}
+
+
+.business-hours-post>.panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.business_hours_container {
+    padding: 0 38px 38px 35px;
+}
+
+#business-hours-fields .panel-body {
+    padding: 15px;
+}
+
+#business-hours-fields .control-label {
+    padding: 5px 2px;
+}
+
+input#calender-booking , .all-booking-timing .panel-dropdown {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    height: auto;
+    padding: 10px 16px;
+    line-height: 30px;
+    margin: 0 0 15px;
+    position: relative;
+    background-color: #fff;
+    text-align: left;
+    color: #777;
+    transition: color .3s!important;
+    width: 100%;
+  background: #fbfdff;
+  min-height: 50px;
+  border: 1px solid #e9f1fc;
+  border-radius:0;
+}
+.all-booking-timing .panel-dropdown {
+    position: relative;
+    display: inline-block;   
+    padding: 10px 0;
+}
+.all-booking-timing .panel-dropdown .dropdown-toggle {
+  padding: 0 20px;
+}
+.all-booking-timing .dropdown-menu {
+    max-height: 165px;
+    overflow: auto;
+    padding: 0 10px;
+    margin: 22px 6px 16px;
+    width : 100%;
+}
+.show_book_form .time-slot {
+    position: relative;
+    padding: 6px 0px;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+    color: #777;
+    transition: .3s;
+    overflow: hidden;
+    font-size: 15px;
+    border: none;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+.show_book_form .time-slot:hover {
+
+    background-color : #fe696a;
+    color : #ffff;
+}
+
+.create-booking-form {
+    background: #fff;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.create-booking-form  .form-control {
+    padding: 15px 9px;
+    background: #fbfdff;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+.current-selected-date {
+    margin-bottom :20px;
+  margin-top:10px;
+} 
+.main-section-bid.booking-section {
+  position:relative;
+  padding:20px;
+  margin-top: 30px;
+}
+.booking-section h3 {
+  font-size:20px;
+}
+
+
+.detail-list .main-section-bid .current-selected-date {
+    background-color: unset;
+    margin: 30px 0;
+}
+.main-section-bid .current-selected-date .selectd_booking_day {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 500;
+    color: #000;
+    font-size: 16px;
+}
+.main-section-bid .current-selected-date span {
+    font-size: 16px;
+    color: #777;
+}
+.main-section-bid .calender-container {
+    position: relative;
+}
+.main-section-bid .calender-container .fa-calendar {
+    position: absolute;
+    right: 18px;
+    top: 16px;
+}
+.main-section-bid .current-selected-date #selectd_booking_time {
+    font-size: 18px;
+    color: #777;
+}
+.main-section-bid .booking-form-container .email-caption {
+    margin-top: 15px;
+    display: block;
+}
+.main-section-bid .booking-form-container .email-caption i {
+    color: #fe696a;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+.booking-form-container {
+    display : none;
+}
+.booking-confirmed {
+    position: relative;
+    margin-top : 20px;
+    display: none;
+}
+.booking-confirmation-close i {
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.booking-confirmation-close-form i {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.booking-confirmation {
+    text-align: center;
+}
+.booking-confirmation {
+    font-size: 60px;
+    margin-top : 20px;
+    color : red;    
+}
+
+.booking-spin-loader {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00000099;
+    border-radius: 5px;
+    height: 100%;
+    line-height: 100%;
+    display: none;
+    text-align: center;
+    z-index: 99;
+}
+.booking-section { 
+    position: relative;
+}
+.booking-spin-loader i {
+    font-size: 30px;
+    color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+.hours_Days .with-nav-tabs .nav-tabs li{
+  padding: 20px 20px 20px 20px;
+  
+}
+.hours_Days .with-nav-tabs .nav-tabs li:first-child{
+  padding-left: 0px;
+}
+.frontend_hours li{
+  display: flex;
+
+} 
+
+.hours_category ul{
+  display: flex;
+  justify-content: space-around ;
+}
+
+.hours_Days, #timezone, #submit_days_schedule  , .time_slot{
+  display: none;
+}
+.iradio_flat .custom-checkbox{
+  margin-right: 5px;
+}
+
+.tab-pane .col-sm-2 .form-group {
+ margin-top: 45px;
+ display: flex;
+}
+
+.hours_Days .panel .panel-body {
+  margin: 30px;
+} 
+
+.main-panel .hours_Days {
+/*  display: block;*/
+  border: 1px solid #bce8f1;
+  margin-bottom: 30px;
+}
+.hours_Days .panel-heading .nav {
+  background-color: #bce8f1;
+}
+
+.hours_Days .panel .panel-heading .nav-tabs .days a.active  {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+  padding: 20px;
+}
+
+.main_hous_days .submit_schedule #submit_days_schedule {
+  margin-bottom: 30px;
+
+}
+.widget-opening-hours .opening-hours-title {
+  cursor: pointer;
+  color: #242424;
+  font-weight: 600;
+}
+
+.s-timezone {
+  margin-top: 10px;
+}
+
+.widget-opening-hours #opening-hours ul {
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 0;
+  padding: 0 10px 0 10px;
+}
+
+.widget-opening-hours #opening-hours ul li {
+  border-bottom: 1px solid #eee;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 14px;
+}
+.widget-opening-hours #opening-hours ul li .day-name {
+  float: left;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.widget-opening-hours #opening-hours ul li .day-name {
+  float: left;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.widget-opening-hours #opening-hours ul li .day-timing {
+  float: right;
+  text-transform: capitalize;
+}
+.content-wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.sb-dash-heading {
+  position: relative;
+  margin-bottom: 30px;
+}
+.page-wrapper .content-wrapper .sb-dash-heading form {
+  float: right;
+  margin-top: -36px;
+}
+
+.admin-listing-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+  font-size: 14px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gc-calendar table.calendar td {
+  height: 120px;
+}
+.show_book_form {
+  padding-top: 10px;
+}
+
+
+.gc-calendar .gc-calendar-header button.next,
+.gc-calendar .gc-calendar-header button.prev {
+    position: absolute;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 15px 6px 15px;
+    top: 18px;
+    right: 30px;
+    left: unset;
+    border: 1px solid #7A7A9D;
+}
+.gc-calendar .gc-calendar-header button.prev {
+    right: 80px;
+}
+#myModal .modal-content {
+    max-width: 550px;
+}
+#myModal .modal-content .close {
+    text-align: right;
+}
+#myModal .modal-content h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+#myModal .modal-content .control-label {
+    font-weight: 500;
+}
+#myModal .modal-content .select2-container {
+    width: 100% !important;
+}
+.hours_submission {
+    margin-top: 30px;
+}
+/* .hours_submission .calender-container {
+    overflow-x: hidden;
+} */
+.hours_submission .calender-container .fa-calendar {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 20px;
+}
+#calendar-custom-frant .gc-calendar .gc-calendar-header {
+    padding-left: 26px;
+    margin-bottom: 20px;
+}
+#calendar-custom-frant .gc-calendar {
+    padding: 0;
+    margin-bottom: 5px;
+}
+#calendar-custom-frant .gc-calendar-month-year {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+#calendar-custom-frant .gc-calendar .gc-calendar-header button.next,
+#calendar-custom-frant .gc-calendar .gc-calendar-header button.prev {
+    width: 28px;
+    height: 30px;
+    /* top: 0; */
+    right: 0;
+    margin-right: 0;
+}
+#calendar-custom-frant .gc-calendar .gc-calendar-header button.prev {
+    right: 40px;
+}
+#calendar-custom-frant .gc-calendar table.calendar a:hover {
+    padding-left: 0;
+    text-align: center;
+}
+#calendar-custom-frant .gc-calendar table.calendar td {
+    height: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.day {
+  background-color: #f4f4f4;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.day:hover {
+  background: #f4f4f4;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.day.event {
+  background-color: #adffad;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.day.event:hover {
+  background: #adffad;
+}
+#calendar-custom-frant .gc-calendar table.calendar td .day-number {
+    font-size: 14px;
+}
+#calendar-custom-frant .gc-calendar .gc-event {
+  font-size: 10px;
+  padding: 2px 5px;
+  color: #ffff;
+  background-color: #4adc4a;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+#calendar-custom-frant .gc-calendar table.calendar {
+  border-spacing: 6px;
+  border-collapse: unset;
+}
+#calendar-custom-frant .gc-calendar table.calendar a {
+  margin-top: 5px;
+}
+#calendar-custom-frant .gc-calendar table.calendar a:hover {
+  background-color: #b5b2b2;
+  width: 100%;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.day.event a:hover {
+  background-color: #4adc4a;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.prev-month a:hover,
+#calendar-custom-frant .gc-calendar table.calendar td.next-month a:hover {
+  background-color: transparent;
+  text-align: left;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.day.event a span {
+  color: #38385c !important;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.day.event a:hover span {
+  color: #ffff !important;
+}
+#calendar-custom-frant .gc-calendar table.calendar a .day-number:hover {
+  color: #ffff !important;
+}
+#calendar-custom-frant .gc-calendar table.calendar td.prev-month a:hover .day-number,
+#calendar-custom-frant .gc-calendar table.calendar td.next-month a:hover .day-number,
+#calendar-custom-frant .gc-calendar table.calendar td.prev-month a .day-number:hover,
+#calendar-custom-frant .gc-calendar table.calendar td.next-month a .day-number:hover {
+  color: #B5B5BD !important;
+}
+.gc-calendar table.calendar th::before, 
+.gc-calendar table.calendar tr:not(:last-child) td::before {
+  width: 100%;
+}
+.main-section-bid .all-booking-timing .show_book_form {
+    padding-top: 0;
+}
+.main-section-bid .all-booking-timing .show_book_form .time-slot {
+    margin-bottom: 0;
+}
+.main-section-bid .all-booking-timing .dropdown .dropdown-menu.show {
+    padding-top: 10px;
+    border-radius: 0;
+}
+.main-panel .sb-dash-heading .select2-container {
+  width: 200px !important;
+}
+.main-panel .admin-listing-img .select2-container {
+  width: 200px !important;
+}
+#booking-detail-modal .modal-body .form-group a {
+  text-decoration: underline;
+}
+.booking_settings_container {
+  margin-bottom: 100px;
+}
+
+.time-slot > span:first-child {
+  background-color: #FFD700; /* Change this to your desired background color */
+  padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .business_hours_container {
+    padding: 0  ;
+  }
+  #business-hours-fields .gc-calendar {
+    padding: 0;
+  }
+  .gc-calendar .gc-calendar-header button.next, 
+  .gc-calendar .gc-calendar-header button.prev {
+    top: 3px;
+    right: 4px;
+  }
+  .gc-calendar .gc-calendar-header button.prev {
+    right: 50px;
+  }
+}

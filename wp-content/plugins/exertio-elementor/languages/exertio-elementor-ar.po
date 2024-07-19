@@ -1,0 +1,1466 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: Exertio Elementor Widgets\n"
+"POT-Creation-Date: 2022-11-15 18:39+0500\n"
+"PO-Revision-Date: 2022-11-15 18:41+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: exertio-elementor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: exertio-elementor.php:57
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "\"%1$s\" يتطلب تثبيت \"%2$s\" وتنشيطه."
+
+#: exertio-elementor.php:59 exertio-elementor.php:72
+msgid "Elementor"
+msgstr "مصمم الصفحات"
+
+#: exertio-elementor.php:70 exertio-elementor.php:84
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "يتطلب \"%1$s\" إصدار \"%2$s\" %3$s أو أكبر."
+
+#: exertio-elementor.php:86
+msgid "PHP"
+msgstr "Php"
+
+#: plugin.php:83
+msgid "Exertio Widgets"
+msgstr "الحاجيات Exertio"
+
+#: widgets/about-us.php:13 widgets/about-us.php:42
+msgid "About us"
+msgstr "معلومات عنا"
+
+#: widgets/about-us.php:48 widgets/app-1.php:58 widgets/call-to-action.php:48
+#: widgets/call-to-action3.php:48 widgets/call-to-action4.php:48
+msgid "Sub title text"
+msgstr "نص العنوان الفرعي"
+
+#: widgets/about-us.php:50 widgets/app-1.php:60 widgets/call-to-action.php:50
+#: widgets/call-to-action3.php:50 widgets/call-to-action4.php:50
+msgid "Provide the sub title"
+msgstr "أدخل العنوان الفرعي"
+
+#: widgets/about-us.php:52 widgets/about-us.php:60 widgets/about-us.php:62
+#: widgets/app-1.php:50 widgets/app-1.php:52 widgets/app-1.php:62
+#: widgets/call-to-action.php:52 widgets/call-to-action.php:60
+#: widgets/call-to-action.php:62 widgets/call-to-action2.php:50
+#: widgets/call-to-action2.php:52 widgets/call-to-action2.php:95
+#: widgets/call-to-action2.php:97 widgets/call-to-action3.php:52
+#: widgets/call-to-action3.php:60 widgets/call-to-action3.php:62
+#: widgets/call-to-action4.php:52 widgets/call-to-action4.php:60
+#: widgets/call-to-action4.php:62 widgets/contact.php:50
+#: widgets/contact.php:128 widgets/hero-1.php:69 widgets/hero-1.php:71
+#: widgets/hero-2.php:77 widgets/hero-2.php:79 widgets/hero-3.php:95
+#: widgets/hero-3.php:97 widgets/hero-4.php:62 widgets/hero-4.php:64
+#: widgets/hero-slider.php:77 widgets/hero-slider.php:79
+msgid "Provide the main title"
+msgstr "تقديم العنوان الرئيسي"
+
+#: widgets/about-us.php:58 widgets/app-1.php:48 widgets/call-to-action.php:58
+#: widgets/call-to-action2.php:48 widgets/call-to-action2.php:93
+#: widgets/call-to-action3.php:58 widgets/call-to-action4.php:58
+#: widgets/hero-1.php:67 widgets/hero-2.php:75 widgets/hero-3.php:93
+#: widgets/hero-4.php:60 widgets/hero-slider.php:75
+#: widgets/how-it-works.php:193 widgets/how-it-works2.php:193
+msgid "Main Heading"
+msgstr "العنوان الرئيسي"
+
+#: widgets/about-us.php:69 widgets/call-to-action.php:69
+#: widgets/call-to-action2.php:59 widgets/call-to-action2.php:104
+#: widgets/call-to-action3.php:69 widgets/call-to-action4.php:69
+msgid "Description paragraph"
+msgstr "فقرة الوصف"
+
+#: widgets/about-us.php:71 widgets/about-us.php:73
+#: widgets/call-to-action.php:71 widgets/call-to-action.php:73
+#: widgets/call-to-action2.php:61 widgets/call-to-action2.php:63
+#: widgets/call-to-action2.php:106 widgets/call-to-action2.php:108
+#: widgets/call-to-action3.php:71 widgets/call-to-action3.php:73
+#: widgets/call-to-action4.php:71 widgets/call-to-action4.php:73
+#: widgets/contact.php:60 widgets/contact.php:139
+msgid "Provide description"
+msgstr "يرجى إضافة وصف"
+
+#: widgets/about-us.php:79 widgets/blog.php:106 widgets/call-to-action.php:79
+#: widgets/call-to-action2.php:69 widgets/call-to-action2.php:114
+#: widgets/call-to-action3.php:79 widgets/call-to-action4.php:79
+#: widgets/category-1.php:117 widgets/category-2.php:116
+#: widgets/category-list.php:149 widgets/exertio-freelancers.php:112
+#: widgets/exertio-projects-with-sidebar.php:126
+#: widgets/exertio-projects.php:153 widgets/exertio-services.php:117
+#: widgets/how-it-works.php:104 widgets/how-it-works.php:230
+#: widgets/how-it-works2.php:104 widgets/pricing.php:138
+#: widgets/pricing2.php:133 widgets/services.php:104
+#: widgets/testimonials-2.php:106 widgets/testimonials.php:106
+msgid "Provide button text"
+msgstr "نص الزر \"توفير\""
+
+#: widgets/about-us.php:87 widgets/blog.php:132 widgets/call-to-action.php:87
+#: widgets/call-to-action2.php:77 widgets/call-to-action2.php:122
+#: widgets/call-to-action3.php:87 widgets/call-to-action4.php:87
+#: widgets/category-1.php:143 widgets/category-2.php:142
+#: widgets/category-list.php:175 widgets/exertio-freelancers.php:138
+#: widgets/exertio-projects-with-sidebar.php:152
+#: widgets/exertio-projects.php:179 widgets/exertio-services.php:143
+#: widgets/how-it-works.php:130 widgets/how-it-works.php:249
+#: widgets/how-it-works2.php:130 widgets/pricing.php:164
+#: widgets/pricing2.php:159 widgets/services.php:130
+#: widgets/testimonials-2.php:132 widgets/testimonials.php:132
+msgid "Provide button link"
+msgstr "توفير رابط زر"
+
+#: widgets/about-us.php:95
+msgid "Provide VIdeo link"
+msgstr "توفير رابط VIdeo"
+
+#: widgets/about-us.php:103 widgets/call-to-action.php:95
+#: widgets/call-to-action3.php:95
+msgid "SideImage"
+msgstr "صورة جانبية"
+
+#: widgets/about-us.php:113 widgets/call-to-action.php:105
+#: widgets/call-to-action3.php:113
+msgid "Selecte Image Position"
+msgstr "تحديد موضع الصورة"
+
+#: widgets/about-us.php:116 widgets/blog.php:75 widgets/call-to-action.php:108
+#: widgets/call-to-action3.php:116 widgets/category-1.php:86
+#: widgets/category-2.php:85 widgets/category-list.php:118
+#: widgets/exertio-freelancers.php:81
+#: widgets/exertio-projects-with-sidebar.php:95
+#: widgets/exertio-projects.php:122 widgets/exertio-services.php:86
+#: widgets/how-it-works.php:73 widgets/how-it-works.php:177
+#: widgets/how-it-works2.php:73 widgets/pricing.php:107
+#: widgets/pricing2.php:102 widgets/services.php:73
+#: widgets/testimonials-2.php:75 widgets/testimonials.php:75
+msgid "Left"
+msgstr "يسار"
+
+#: widgets/about-us.php:117 widgets/call-to-action.php:109
+#: widgets/call-to-action3.php:117 widgets/how-it-works.php:178
+msgid "Right"
+msgstr "يمين"
+
+#: widgets/about-us.php:127 widgets/about-us.php:144
+msgid "Features List"
+msgstr "قائمة الميزات"
+
+#: widgets/about-us.php:135 widgets/call-to-action3.php:135
+#: widgets/category-list.php:243 widgets/contact.php:77
+msgid "Title"
+msgstr "العنوان"
+
+#: widgets/about-us.php:137 widgets/contact.php:79
+msgid "List Title"
+msgstr "قائمة العنوان 2"
+
+#: widgets/about-us.php:155 widgets/facts-counter.php:13
+#: widgets/facts-counter.php:42
+msgid "Facts Counter"
+msgstr "عداد حقائق ممتعة"
+
+#: widgets/about-us.php:162
+msgid "Section Visibility"
+msgstr "رؤية القسم"
+
+#: widgets/about-us.php:165 widgets/blog.php:87 widgets/category-1.php:98
+#: widgets/category-2.php:97 widgets/category-list.php:130
+#: widgets/exertio-freelancers.php:93
+#: widgets/exertio-projects-with-sidebar.php:107
+#: widgets/exertio-projects.php:134 widgets/exertio-services.php:98
+#: widgets/hero-1.php:91 widgets/hero-2.php:99 widgets/hero-3.php:117
+#: widgets/hero-slider.php:99 widgets/how-it-works.php:85
+#: widgets/how-it-works.php:222 widgets/how-it-works2.php:85
+#: widgets/pricing.php:119 widgets/pricing.php:275 widgets/pricing.php:362
+#: widgets/pricing2.php:114 widgets/pricing2.php:270 widgets/pricing2.php:368
+#: widgets/services.php:85 widgets/testimonials-2.php:87
+#: widgets/testimonials.php:87
+msgid "Yes"
+msgstr "نعم"
+
+#: widgets/about-us.php:166 widgets/hero-1.php:90 widgets/hero-2.php:98
+#: widgets/hero-3.php:116 widgets/hero-slider.php:98 widgets/pricing.php:276
+#: widgets/pricing.php:363 widgets/pricing2.php:271 widgets/pricing2.php:369
+msgid "No"
+msgstr "لا"
+
+#: widgets/about-us.php:178 widgets/facts-counter.php:64
+msgid "Counter Icon"
+msgstr "رمز العداد"
+
+#: widgets/about-us.php:188 widgets/facts-counter.php:84
+msgid "Counter Title"
+msgstr "عنوان العداد"
+
+#: widgets/about-us.php:196 widgets/facts-counter.php:92
+msgid "Value in Digits"
+msgstr "القيمة بالأرقام"
+
+#: widgets/about-us.php:207 widgets/facts-counter.php:103
+msgid "Counters"
+msgstr "العدادت"
+
+#: widgets/app-1.php:13
+msgid "App Section 1"
+msgstr "قسم التطبيق 1"
+
+#: widgets/app-1.php:42
+msgid "App Section one Content"
+msgstr "محتوى القسم الأول من التطبيق"
+
+#: widgets/app-1.php:70
+msgid "Main image"
+msgstr "نص الزر"
+
+#: widgets/app-1.php:82
+msgid "Store Icons"
+msgstr "أيقونات المتجر"
+
+#: widgets/app-1.php:91 widgets/call-to-action3.php:151 widgets/contact.php:95
+#: widgets/contact.php:119
+msgid "Choose icon"
+msgstr "اختر الرمز"
+
+#: widgets/app-1.php:98
+msgid "Provide link"
+msgstr "توفير رابط"
+
+#: widgets/app-1.php:107 widgets/call-to-action3.php:159
+#: widgets/contact.php:103 widgets/hero-slider.php:255
+msgid "Boxes List"
+msgstr "قائمة المربعات"
+
+#: widgets/blog.php:13
+msgid "Exertio Blog"
+msgstr "إكسيرتيو بلوق القطعة"
+
+#: widgets/blog.php:44 widgets/category-1.php:55 widgets/category-2.php:54
+#: widgets/category-list.php:87 widgets/exertio-freelancers.php:50
+#: widgets/exertio-projects-with-sidebar.php:64 widgets/exertio-projects.php:92
+#: widgets/exertio-services.php:55 widgets/how-it-works.php:42
+#: widgets/how-it-works2.php:42 widgets/pricing.php:76 widgets/pricing2.php:71
+#: widgets/services.php:42 widgets/testimonials-2.php:44
+#: widgets/testimonials.php:44
+msgid "Section Heading"
+msgstr "عنوان المقطع"
+
+#: widgets/blog.php:50 widgets/category-1.php:61 widgets/category-2.php:60
+#: widgets/category-list.php:93 widgets/exertio-freelancers.php:56
+#: widgets/exertio-projects-with-sidebar.php:70 widgets/exertio-projects.php:98
+#: widgets/exertio-services.php:61 widgets/how-it-works.php:48
+#: widgets/how-it-works2.php:48 widgets/pricing.php:82 widgets/pricing2.php:77
+#: widgets/services.php:48 widgets/testimonials-2.php:50
+#: widgets/testimonials.php:50
+msgid "Heading Text"
+msgstr "نص العنوان"
+
+#: widgets/blog.php:52 widgets/category-1.php:63 widgets/category-2.php:62
+#: widgets/category-list.php:95 widgets/exertio-freelancers.php:58
+#: widgets/exertio-projects-with-sidebar.php:72
+#: widgets/exertio-projects.php:100 widgets/exertio-services.php:63
+#: widgets/how-it-works.php:50 widgets/how-it-works2.php:50
+#: widgets/pricing.php:84 widgets/pricing2.php:79 widgets/services.php:50
+#: widgets/testimonials-2.php:52 widgets/testimonials.php:52
+msgid "Main Heading text"
+msgstr "نص العنوان الرئيسي"
+
+#: widgets/blog.php:60 widgets/category-1.php:71 widgets/category-2.php:70
+#: widgets/category-list.php:103 widgets/exertio-freelancers.php:66
+#: widgets/exertio-projects-with-sidebar.php:80
+#: widgets/exertio-projects.php:107 widgets/exertio-services.php:71
+#: widgets/how-it-works.php:58 widgets/how-it-works2.php:58
+#: widgets/pricing.php:92 widgets/pricing2.php:87 widgets/services.php:58
+#: widgets/testimonials-2.php:60 widgets/testimonials.php:60
+msgid "Subtitle Here"
+msgstr "العنوان الفرعي هنا"
+
+#: widgets/blog.php:63 widgets/category-1.php:74 widgets/category-2.php:73
+#: widgets/category-list.php:106 widgets/exertio-freelancers.php:69
+#: widgets/exertio-projects-with-sidebar.php:83
+#: widgets/exertio-projects.php:110 widgets/exertio-services.php:74
+#: widgets/hero-1.php:81 widgets/hero-2.php:89 widgets/hero-3.php:107
+#: widgets/hero-4.php:74 widgets/hero-slider.php:89 widgets/how-it-works.php:61
+#: widgets/how-it-works2.php:61 widgets/pricing.php:95 widgets/pricing2.php:90
+#: widgets/services.php:61 widgets/testimonials-2.php:63
+#: widgets/testimonials.php:63
+msgid "Type your description here"
+msgstr "اكتب الوصف هنا"
+
+#: widgets/blog.php:69 widgets/category-1.php:80 widgets/category-2.php:79
+#: widgets/category-list.php:112 widgets/exertio-freelancers.php:75
+#: widgets/exertio-projects-with-sidebar.php:89
+#: widgets/exertio-projects.php:116 widgets/exertio-services.php:80
+#: widgets/how-it-works.php:67 widgets/how-it-works2.php:67
+#: widgets/pricing.php:101 widgets/pricing2.php:96 widgets/services.php:67
+#: widgets/testimonials-2.php:69 widgets/testimonials.php:69
+msgid "Heading Style"
+msgstr "اسلوب العنوان"
+
+#: widgets/blog.php:74 widgets/category-1.php:85 widgets/category-2.php:84
+#: widgets/category-list.php:117 widgets/exertio-freelancers.php:80
+#: widgets/exertio-projects-with-sidebar.php:94
+#: widgets/exertio-projects.php:121 widgets/exertio-services.php:85
+#: widgets/how-it-works.php:72 widgets/how-it-works2.php:72
+#: widgets/pricing.php:106 widgets/pricing2.php:101 widgets/services.php:72
+#: widgets/testimonials-2.php:74 widgets/testimonials.php:74
+msgid "Center"
+msgstr "وسط"
+
+#: widgets/blog.php:82 widgets/category-1.php:93 widgets/category-2.php:92
+#: widgets/category-list.php:125 widgets/exertio-freelancers.php:88
+#: widgets/exertio-projects-with-sidebar.php:102
+#: widgets/exertio-projects.php:129 widgets/exertio-services.php:93
+#: widgets/how-it-works.php:80 widgets/how-it-works2.php:80
+#: widgets/pricing.php:114 widgets/pricing2.php:109 widgets/services.php:80
+#: widgets/testimonials-2.php:82 widgets/testimonials.php:82
+msgid "Want to show heading side button"
+msgstr "تريد إظهار زر جانب العنوان"
+
+#: widgets/blog.php:88 widgets/category-1.php:99 widgets/category-2.php:98
+#: widgets/category-list.php:131 widgets/exertio-freelancers.php:94
+#: widgets/exertio-projects-with-sidebar.php:108
+#: widgets/exertio-projects.php:135 widgets/exertio-services.php:99
+#: widgets/how-it-works.php:86 widgets/how-it-works.php:223
+#: widgets/how-it-works2.php:86 widgets/pricing.php:120
+#: widgets/pricing2.php:115 widgets/services.php:86
+#: widgets/testimonials-2.php:88 widgets/testimonials.php:88
+msgid "NO"
+msgstr "لا"
+
+#: widgets/blog.php:163
+msgid "Blog"
+msgstr "المدونة"
+
+#: widgets/blog.php:169
+msgid "Title Limit in Words"
+msgstr "حد العنوان في الكلمات"
+
+#: widgets/blog.php:177
+msgid "Desciption Limit in words"
+msgstr "حد التدبير في الكلمات"
+
+#: widgets/blog.php:185
+msgid "Number of posts"
+msgstr "عدد المشاركات"
+
+#: widgets/blog.php:194 widgets/exertio-freelancers.php:200
+#: widgets/exertio-services.php:227 widgets/how-it-works2.php:169
+#: widgets/services.php:169
+msgid "Grids Cols"
+msgstr "شبكات كولز"
+
+#: widgets/blog.php:197 widgets/category-list.php:216
+#: widgets/exertio-freelancers.php:203 widgets/exertio-services.php:230
+#: widgets/how-it-works2.php:172 widgets/pricing.php:217
+#: widgets/pricing2.php:212 widgets/services.php:172
+msgid "4 in a row"
+msgstr "4 على التوالي"
+
+#: widgets/blog.php:198 widgets/exertio-freelancers.php:204
+#: widgets/exertio-services.php:231 widgets/how-it-works2.php:173
+#: widgets/pricing.php:216 widgets/pricing2.php:211 widgets/services.php:173
+msgid "3 in a row"
+msgstr "3 على التوالي"
+
+#: widgets/blog.php:199 widgets/category-list.php:218
+#: widgets/exertio-freelancers.php:205 widgets/exertio-projects.php:244
+#: widgets/exertio-services.php:232 widgets/how-it-works2.php:174
+#: widgets/services.php:174
+msgid "2 in a row"
+msgstr "2 على التوالي"
+
+#: widgets/call-to-action.php:13
+msgid "Call to action 1"
+msgstr "السماح بالموقع"
+
+#: widgets/call-to-action.php:42
+msgid "Call to action one Content"
+msgstr "عبارة تحث المستخدم على اتخاذ إجراء بشأن محتوى واحد"
+
+#: widgets/call-to-action2.php:13
+msgid "Call to action 2"
+msgstr "دعوة للعمل 2"
+
+#: widgets/call-to-action2.php:42
+msgid "Right Side"
+msgstr "الجانب الأيمن"
+
+#: widgets/call-to-action2.php:87
+msgid "Left Side"
+msgstr "الجانب الأيسر"
+
+#: widgets/call-to-action3.php:13
+msgid "Call to action 3"
+msgstr "الدعوة إلى العمل-3"
+
+#: widgets/call-to-action3.php:42
+msgid "Call to action three Content"
+msgstr "عبارة تحث المستخدم على اتخاذ إجراء بشأن المحتوى الثالث"
+
+#: widgets/call-to-action3.php:105
+msgid "Provide Image height"
+msgstr "توفير ارتفاع الصورة"
+
+#: widgets/call-to-action3.php:127
+msgid "Features Boxes"
+msgstr "صناديق الميزات"
+
+#: widgets/call-to-action3.php:143 widgets/category-list.php:232
+#: widgets/contact.php:86
+msgid "Content"
+msgstr "صورة خلفية محتوى الصورة"
+
+#: widgets/call-to-action4.php:13
+msgid "Call to action 4"
+msgstr "دعوة لاتخاذ إجراء 4"
+
+#: widgets/call-to-action4.php:42
+msgid "Call to action four Content"
+msgstr "عبارة تحث المستخدم على اتخاذ إجراء بشأن المحتوى الرابع"
+
+#: widgets/call-to-action4.php:95
+msgid "Provide button two text"
+msgstr "الزر \"توفير نصين\""
+
+#: widgets/call-to-action4.php:103
+msgid "Provide button two link"
+msgstr "الزر الثاني توفير رابط"
+
+#: widgets/category-1.php:13
+msgid "Category Section 1"
+msgstr "الفئة القسم 1"
+
+#: widgets/category-1.php:172 widgets/category-2.php:171
+msgid "Category Selector"
+msgstr "محدد الفئة"
+
+#: widgets/category-1.php:179 widgets/category-2.php:178 widgets/hero-1.php:57
+#: widgets/hero-2.php:56 widgets/hero-2.php:228 widgets/hero-3.php:74
+#: widgets/hero-3.php:246 widgets/hero-slider.php:56
+#: widgets/hero-slider.php:228
+msgid "Used For"
+msgstr "السيارات المستعملة"
+
+#: widgets/category-1.php:182 widgets/category-2.php:181
+msgid "Project Categories"
+msgstr "فئات المشروع"
+
+#: widgets/category-1.php:183 widgets/category-2.php:182
+msgid "Services Categories"
+msgstr "فئات الخدمات"
+
+#: widgets/category-1.php:194 widgets/category-2.php:193
+#: widgets/services.php:162
+msgid "Project category selection"
+msgstr "اختيار فئة المشروع"
+
+#: widgets/category-1.php:215 widgets/category-1.php:291
+#: widgets/category-2.php:214 widgets/category-2.php:279
+msgid "Select Category"
+msgstr "اختر تصنيف"
+
+#: widgets/category-1.php:224 widgets/category-1.php:300
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: widgets/category-1.php:234 widgets/category-1.php:310
+#: widgets/facts-counter.php:74 widgets/testimonials-2.php:163
+msgid "Icon"
+msgstr "أيقونة"
+
+#: widgets/category-1.php:246 widgets/category-1.php:322
+#: widgets/category-2.php:235 widgets/category-2.php:300
+msgid "Category List"
+msgstr "قائمة الفئات"
+
+#: widgets/category-1.php:251 widgets/category-1.php:327
+#: widgets/category-2.php:240 widgets/category-2.php:305
+msgid "Category #1"
+msgstr "الفئة 1"
+
+#: widgets/category-1.php:254 widgets/category-1.php:330
+#: widgets/category-2.php:243 widgets/category-2.php:308
+msgid "Category #2"
+msgstr "الفئة 2"
+
+#: widgets/category-1.php:270 widgets/category-2.php:258
+msgid "Services category selection"
+msgstr "اختيار فئة الخدمات"
+
+#: widgets/category-2.php:13
+msgid "Category Section 2"
+msgstr "الفئة القسم 2"
+
+#: widgets/category-2.php:223 widgets/services.php:185
+msgid "icon Image"
+msgstr "صورة الأيقونة"
+
+#: widgets/category-2.php:288
+msgid "Icon Image"
+msgstr "صورة الأيقونة"
+
+#: widgets/category-list.php:13
+msgid "Skills and Category List"
+msgstr "قائمة المهارات والفئات"
+
+#: widgets/category-list.php:206
+msgid "List One"
+msgstr "القائمة الأولى"
+
+#: widgets/category-list.php:212 widgets/category-list.php:252
+msgid "Select option for list one"
+msgstr "حدد خيارا للقائمة الأولى"
+
+#: widgets/category-list.php:215
+msgid "6 in a row"
+msgstr "6 على التوالي"
+
+#: widgets/category-list.php:217
+msgid "3 ina row"
+msgstr "3 بوصة صف"
+
+#: widgets/category-list.php:219 widgets/exertio-freelancers.php:206
+#: widgets/exertio-projects.php:243 widgets/exertio-services.php:233
+#: widgets/how-it-works2.php:175 widgets/services.php:175
+msgid "1 in a row"
+msgstr "1 على التوالي"
+
+#: widgets/category-list.php:245 widgets/hero-1.php:141 widgets/hero-2.php:150
+#: widgets/hero-3.php:168 widgets/hero-slider.php:150
+msgid "Type your title here"
+msgstr "اكتب عنوانك هنا"
+
+#: widgets/category-list.php:255 widgets/exertio-projects.php:301
+msgid "Project category"
+msgstr "فئة المشروع"
+
+#: widgets/category-list.php:256 widgets/exertio-projects.php:302
+msgid "Project skills"
+msgstr "مهارات المشروع"
+
+#: widgets/category-list.php:257
+msgid "Services category"
+msgstr "فئة الخدمات"
+
+#: widgets/category-list.php:258
+msgid "Freelancer skills"
+msgstr "قم بتشغيل لإظهار النسبة المئوية لمهارات المستقلين"
+
+#: widgets/category-list.php:259
+msgid "Project Locations"
+msgstr "حدد مواقع المشاريع"
+
+#: widgets/category-list.php:260
+msgid "Services Locations"
+msgstr "حدد مواقع الخدمات"
+
+#: widgets/category-list.php:261
+msgid "Employer Locations"
+msgstr "مواقع أصحاب العمل"
+
+#: widgets/category-list.php:262
+msgid "Freelancer Locations"
+msgstr "مواقع المستقلين"
+
+#: widgets/category-list.php:272 widgets/exertio-projects.php:314
+msgid "Select Project Categories"
+msgstr "حدد فئات المشروع لعرضها في الشريط"
+
+#: widgets/category-list.php:291 widgets/exertio-projects.php:354
+msgid "Select project Skills"
+msgstr "اختر مهارات المشروع"
+
+#: widgets/category-list.php:310
+msgid "Select Servcies Categories"
+msgstr "اختر فئات الخدمات"
+
+#: widgets/category-list.php:329
+msgid "Select Freelancer Skills"
+msgstr "حدد مهارات المستقلين"
+
+#: widgets/category-list.php:348
+msgid "Select Project Locations"
+msgstr "حدد مواقع المشاريع"
+
+#: widgets/category-list.php:367
+msgid "Select Services Locations"
+msgstr "حدد مواقع الخدمات"
+
+#: widgets/category-list.php:386
+msgid "Select Employers Locations"
+msgstr "حدد مواقع أصحاب العمل"
+
+#: widgets/category-list.php:405
+msgid "Select Freelancer Locations"
+msgstr "حدد مواقع المستقلين"
+
+#: widgets/category-list.php:425
+msgid "You can select multiple values"
+msgstr "يمكنك تحديد قيم متعددة"
+
+#: widgets/contact.php:13
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: widgets/contact.php:42
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: widgets/contact.php:48
+msgid "Sidebar Heading"
+msgstr "عنوان الشريط الجانبي"
+
+#: widgets/contact.php:58 widgets/contact.php:137
+msgid "Sidebar Description"
+msgstr "وصف الشريط الجانبي"
+
+#: widgets/contact.php:69
+msgid "Sidebar Boxes"
+msgstr "صناديق الشريط الجانبي"
+
+#: widgets/contact.php:88
+msgid "List Content"
+msgstr "محتويات القائمة"
+
+#: widgets/contact.php:113
+msgid "Main section"
+msgstr "القسم الرئيسي"
+
+#: widgets/contact.php:126 widgets/services.php:195
+msgid "Heading"
+msgstr "العنوان"
+
+#: widgets/contact.php:146
+msgid "Contact Form Short code"
+msgstr "نموذج الاتصال الرمز القصير"
+
+#: widgets/contact.php:148
+msgid "Provide provide contact form Short code"
+msgstr "تقديم نموذج الاتصال رمز قصير"
+
+#: widgets/exertio-freelancers.php:13
+msgid "Exertio Freelancers"
+msgstr "ممارسون مستقلون"
+
+#: widgets/exertio-freelancers.php:167
+msgid "Exertio Freelancer"
+msgstr "ممارس مستقل"
+
+#: widgets/exertio-freelancers.php:174
+msgid "Selecte Freelancer Grid Style"
+msgstr "Selecte Freelancer Grid Style"
+
+#: widgets/exertio-freelancers.php:177 widgets/exertio-services.php:182
+msgid "Style 1"
+msgstr "النمط 1"
+
+#: widgets/exertio-freelancers.php:178 widgets/exertio-services.php:183
+msgid "Style 2"
+msgstr "النمط 2"
+
+#: widgets/exertio-freelancers.php:186
+msgid "Selecte Freelancer Type"
+msgstr "نوع المستقل المختار"
+
+#: widgets/exertio-freelancers.php:189
+#: widgets/exertio-projects-with-sidebar.php:205
+#: widgets/exertio-projects.php:230 widgets/exertio-services.php:195
+#: widgets/pricing.php:286 widgets/pricing.php:373 widgets/pricing2.php:281
+#: widgets/pricing2.php:379
+msgid "Featured"
+msgstr "مميز"
+
+#: widgets/exertio-freelancers.php:190
+#: widgets/exertio-projects-with-sidebar.php:206
+#: widgets/exertio-projects.php:231 widgets/exertio-services.php:196
+msgid "Simple"
+msgstr "بسيط"
+
+#: widgets/exertio-freelancers.php:191
+#: widgets/exertio-projects-with-sidebar.php:207
+#: widgets/exertio-projects.php:232 widgets/exertio-services.php:197
+msgid "Both"
+msgstr "كلاهما"
+
+#: widgets/exertio-freelancers.php:214
+msgid "Number of freelancers to show"
+msgstr "عدد المستقلين لإظهار"
+
+#: widgets/exertio-freelancers.php:217 widgets/exertio-projects.php:267
+#: widgets/exertio-services.php:255
+msgid "2"
+msgstr "2"
+
+#: widgets/exertio-freelancers.php:218 widgets/exertio-projects.php:268
+#: widgets/exertio-services.php:256
+msgid "4"
+msgstr "4"
+
+#: widgets/exertio-freelancers.php:219 widgets/exertio-projects.php:269
+#: widgets/exertio-services.php:257
+msgid "6"
+msgstr "6"
+
+#: widgets/exertio-freelancers.php:220 widgets/exertio-projects.php:270
+#: widgets/exertio-services.php:258
+msgid "8"
+msgstr "8"
+
+#: widgets/exertio-freelancers.php:221
+#: widgets/exertio-projects-with-sidebar.php:220
+#: widgets/exertio-projects.php:271 widgets/exertio-services.php:259
+msgid "10"
+msgstr "10"
+
+#: widgets/exertio-freelancers.php:222 widgets/exertio-projects.php:272
+#: widgets/exertio-services.php:260
+msgid "12"
+msgstr "12"
+
+#: widgets/exertio-freelancers.php:223 widgets/exertio-projects.php:273
+#: widgets/exertio-services.php:261
+msgid "14"
+msgstr "14"
+
+#: widgets/exertio-freelancers.php:224 widgets/exertio-projects.php:274
+#: widgets/exertio-services.php:262
+msgid "16"
+msgstr "16"
+
+#: widgets/exertio-freelancers.php:225 widgets/exertio-projects.php:275
+#: widgets/exertio-services.php:263
+msgid "18"
+msgstr "18"
+
+#: widgets/exertio-freelancers.php:226
+#: widgets/exertio-projects-with-sidebar.php:222
+#: widgets/exertio-projects.php:276 widgets/exertio-services.php:264
+msgid "20"
+msgstr "20"
+
+#: widgets/exertio-freelancers.php:227 widgets/exertio-projects.php:277
+#: widgets/exertio-services.php:265
+msgid "22"
+msgstr "22"
+
+#: widgets/exertio-freelancers.php:228 widgets/exertio-projects.php:278
+#: widgets/exertio-services.php:266
+msgid "24"
+msgstr "24"
+
+#: widgets/exertio-freelancers.php:229 widgets/exertio-projects.php:279
+#: widgets/exertio-services.php:267
+msgid "26"
+msgstr "26"
+
+#: widgets/exertio-freelancers.php:230 widgets/exertio-projects.php:280
+#: widgets/exertio-services.php:268
+msgid "28"
+msgstr "28"
+
+#: widgets/exertio-freelancers.php:231
+#: widgets/exertio-projects-with-sidebar.php:224
+#: widgets/exertio-projects.php:281 widgets/exertio-services.php:269
+msgid "30"
+msgstr "30"
+
+#: widgets/exertio-freelancers.php:232 widgets/exertio-projects.php:282
+#: widgets/exertio-services.php:270
+msgid "32"
+msgstr "32"
+
+#: widgets/exertio-freelancers.php:233 widgets/exertio-projects.php:283
+#: widgets/exertio-services.php:271
+msgid "34"
+msgstr "34"
+
+#: widgets/exertio-freelancers.php:234 widgets/exertio-projects.php:284
+#: widgets/exertio-services.php:272
+msgid "36"
+msgstr "36"
+
+#: widgets/exertio-freelancers.php:235 widgets/exertio-projects.php:285
+#: widgets/exertio-services.php:273
+msgid "38"
+msgstr "38"
+
+#: widgets/exertio-freelancers.php:236 widgets/exertio-freelancers.php:237
+#: widgets/exertio-freelancers.php:238
+#: widgets/exertio-projects-with-sidebar.php:226
+#: widgets/exertio-projects.php:286 widgets/exertio-projects.php:287
+#: widgets/exertio-projects.php:288 widgets/exertio-services.php:274
+#: widgets/exertio-services.php:275 widgets/exertio-services.php:276
+msgid "40"
+msgstr "40"
+
+#: widgets/exertio-freelancers.php:239
+#: widgets/exertio-projects-with-sidebar.php:229
+#: widgets/exertio-projects.php:289 widgets/exertio-services.php:277
+msgid "All"
+msgstr "الكل"
+
+#: widgets/exertio-projects-with-sidebar.php:13
+msgid "Exertio Projects With Sidebar"
+msgstr "مشاريع Exertio مع الشريط الجانبي"
+
+#: widgets/exertio-projects-with-sidebar.php:181
+#: widgets/exertio-projects.php:13 widgets/exertio-projects.php:207
+msgid "Exertio Projects"
+msgstr "مشاريع مجتهدة"
+
+#: widgets/exertio-projects-with-sidebar.php:188
+#: widgets/exertio-projects.php:213
+msgid "Selecte Project List Style"
+msgstr "تحديد نمط قائمة المشاريع"
+
+#: widgets/exertio-projects-with-sidebar.php:191
+#: widgets/exertio-projects.php:216
+msgid "List 1"
+msgstr "القائمة 1"
+
+#: widgets/exertio-projects-with-sidebar.php:192
+#: widgets/exertio-projects.php:217
+msgid "List 2"
+msgstr "قائمة 2"
+
+#: widgets/exertio-projects-with-sidebar.php:193
+#: widgets/exertio-projects.php:218
+msgid "List 3"
+msgstr "قائمة 3"
+
+#: widgets/exertio-projects-with-sidebar.php:194
+#: widgets/exertio-projects.php:219
+msgid "List 4"
+msgstr "القائمة 4"
+
+#: widgets/exertio-projects-with-sidebar.php:202
+msgid "Selecte Project Type"
+msgstr "حدد نوع المشروع"
+
+#: widgets/exertio-projects-with-sidebar.php:216
+#: widgets/exertio-projects.php:264
+msgid "Number of Projects to show"
+msgstr "عدد المشاريع التي سيتم عرضها"
+
+#: widgets/exertio-projects-with-sidebar.php:219
+msgid "5"
+msgstr "الشبكة 5"
+
+#: widgets/exertio-projects-with-sidebar.php:221
+msgid "15"
+msgstr "15"
+
+#: widgets/exertio-projects-with-sidebar.php:223
+msgid "25"
+msgstr "٢٥"
+
+#: widgets/exertio-projects-with-sidebar.php:225
+msgid "35"
+msgstr "٣٥"
+
+#: widgets/exertio-projects-with-sidebar.php:227
+msgid "45"
+msgstr "45"
+
+#: widgets/exertio-projects-with-sidebar.php:228
+msgid "50"
+msgstr "50"
+
+#: widgets/exertio-projects-with-sidebar.php:239
+msgid "Freelancer Section"
+msgstr "قسم المستقلين"
+
+#: widgets/exertio-projects-with-sidebar.php:245
+msgid "Heading for Freelancer section"
+msgstr "التوجه إلى قسم المستقلين"
+
+#: widgets/exertio-projects-with-sidebar.php:253
+msgid "Gride Style"
+msgstr "نمط الركوب"
+
+#: widgets/exertio-projects-with-sidebar.php:256
+msgid "Grid 1"
+msgstr "عمود واحد"
+
+#: widgets/exertio-projects-with-sidebar.php:257
+msgid "Grid 2"
+msgstr "الشبكة 2"
+
+#: widgets/exertio-projects-with-sidebar.php:258
+msgid "Grid 3"
+msgstr "الشبكة 3"
+
+#: widgets/exertio-projects-with-sidebar.php:268 widgets/hero-3.php:265
+msgid "Select Freelancer"
+msgstr "اختر نوع المستقل"
+
+#: widgets/exertio-projects-with-sidebar.php:278 widgets/hero-3.php:282
+msgid "Freelancers"
+msgstr "المستقلين"
+
+#: widgets/exertio-projects-with-sidebar.php:288
+msgid "Advertisment Section"
+msgstr "قسم الاعلانات"
+
+#: widgets/exertio-projects-with-sidebar.php:294
+msgid "Advertisement At Top of sidebar"
+msgstr "الإعلان في الجزء العلوي من الشريط الجانبي"
+
+#: widgets/exertio-projects-with-sidebar.php:302
+msgid "Advertisement At Bottom of sidebar"
+msgstr "الإعلان في أسفل الشريط الجانبي"
+
+#: widgets/exertio-projects.php:227
+msgid "Select Project Type"
+msgstr "اختر نوع المشروع"
+
+#: widgets/exertio-projects.php:240
+msgid "Lists in a Row"
+msgstr "القوائم في صف واحد"
+
+#: widgets/exertio-projects.php:297
+msgid "Select Project Taxonomy"
+msgstr "اختر تصنيف المشروع"
+
+#: widgets/exertio-projects.php:303
+msgid "Project Duration"
+msgstr "مدة المشروع"
+
+#: widgets/exertio-projects.php:304
+msgid "Freelancer type"
+msgstr "نوع العامل المستقل"
+
+#: widgets/exertio-projects.php:305
+msgid "English level"
+msgstr "تحديد المستوى الإنجليزي المطلوب للمشروع"
+
+#: widgets/exertio-projects.php:306
+msgid "Project level"
+msgstr "مستوى المشروع"
+
+#: widgets/exertio-projects.php:334
+msgid "Select Freelancer Type"
+msgstr "اختر نوع المستقل"
+
+#: widgets/exertio-projects.php:374
+msgid "Select Project duration"
+msgstr "اختر مدة المشروع"
+
+#: widgets/exertio-projects.php:394
+msgid "Select English Level"
+msgstr "اختر مستوى اللغة الإنجليزية"
+
+#: widgets/exertio-projects.php:414
+msgid "Select Project level"
+msgstr "اختر مستوى المشروع"
+
+#: widgets/exertio-services.php:13 widgets/exertio-services.php:172
+msgid "Exertio Services"
+msgstr "خدمات إكسيرتيو"
+
+#: widgets/exertio-services.php:179
+msgid "Select Services Grid Style"
+msgstr "حدد نمط شبكة الخدمات"
+
+#: widgets/exertio-services.php:184
+msgid "Style 3 SLider"
+msgstr "ستايل 3 سلايدر"
+
+#: widgets/exertio-services.php:192
+msgid "Select Services Type"
+msgstr "اختر نوع الخدمة"
+
+#: widgets/exertio-services.php:205
+msgid "Service Category"
+msgstr "فئة الخدمة"
+
+#: widgets/exertio-services.php:215
+msgid "Slider or Grids"
+msgstr "شريط التمرير أو الشبكات"
+
+#: widgets/exertio-services.php:218
+msgid "Slider"
+msgstr "إعدادات المنزلق المميزة"
+
+#: widgets/exertio-services.php:219
+msgid "Grids"
+msgstr "شبكات"
+
+#: widgets/exertio-services.php:252
+msgid "Number of services to show"
+msgstr "عدد الخدمات المطلوب عرضها"
+
+#: widgets/facts-counter.php:48
+msgid "Section Position"
+msgstr "منصب القسم"
+
+#: widgets/facts-counter.php:51
+msgid "Middle of section"
+msgstr "منتصف القسم"
+
+#: widgets/facts-counter.php:52
+msgid "With in section"
+msgstr "مع في القسم"
+
+#: widgets/hero-1.php:13
+msgid "Hero Section 1"
+msgstr "Hero Section 1"
+
+#: widgets/hero-1.php:51
+msgid "Hero Section one Content"
+msgstr "محتوى القسم الأول من البطل"
+
+#: widgets/hero-1.php:78 widgets/hero-2.php:86 widgets/hero-3.php:104
+#: widgets/hero-4.php:71 widgets/hero-slider.php:86
+#: widgets/how-it-works.php:209 widgets/how-it-works2.php:201
+#: widgets/services.php:203
+msgid "Description"
+msgstr "الوصف"
+
+#: widgets/hero-1.php:87 widgets/hero-2.php:95 widgets/hero-3.php:113
+#: widgets/hero-slider.php:95
+msgid "Want to show search field?"
+msgstr "هل تريد إظهار حقل البحث؟"
+
+#: widgets/hero-1.php:99 widgets/hero-1.php:101 widgets/hero-2.php:108
+#: widgets/hero-2.php:110 widgets/hero-3.php:126 widgets/hero-3.php:128
+#: widgets/hero-slider.php:108 widgets/hero-slider.php:110
+msgid "Search Field placeholder text"
+msgstr "البحث في نص العنصر النائب للحقل"
+
+#: widgets/hero-1.php:119 widgets/hero-1.php:121 widgets/hero-2.php:128
+#: widgets/hero-2.php:130 widgets/hero-3.php:146 widgets/hero-3.php:148
+#: widgets/hero-slider.php:128 widgets/hero-slider.php:130
+msgid "Select Field placeholder text"
+msgstr "تحديد نص العنصر النائب للحقل"
+
+#: widgets/hero-1.php:139 widgets/hero-2.php:148 widgets/hero-3.php:166
+#: widgets/hero-slider.php:148
+msgid "Search Button Title"
+msgstr "عنوان زر البحث"
+
+#: widgets/hero-1.php:160 widgets/hero-2.php:210 widgets/hero-3.php:228
+#: widgets/hero-slider.php:210
+msgid "Keyword area title"
+msgstr "عنوان منطقة الكلمات الرئيسية"
+
+#: widgets/hero-1.php:162 widgets/hero-2.php:212 widgets/hero-3.php:230
+#: widgets/hero-slider.php:212
+msgid "This will be only title"
+msgstr "سيكون هذا العنوان فقط"
+
+#: widgets/hero-1.php:169
+msgid "Select Keywords"
+msgstr "اختر الكلمات الرئيسية"
+
+#: widgets/hero-1.php:182 widgets/hero-2.php:169 widgets/hero-3.php:187
+#: widgets/hero-slider.php:169
+msgid "Video button heading"
+msgstr "عنوان زر الفيديو"
+
+#: widgets/hero-1.php:184 widgets/hero-2.php:171 widgets/hero-3.php:189
+#: widgets/hero-slider.php:171
+msgid "Video button heading here"
+msgstr "عنوان زر الفيديو هنا"
+
+#: widgets/hero-1.php:192 widgets/hero-2.php:177 widgets/hero-3.php:195
+#: widgets/hero-slider.php:177
+msgid "Video Description area"
+msgstr "منطقة وصف الفيديو"
+
+#: widgets/hero-1.php:194 widgets/hero-2.php:179 widgets/hero-3.php:197
+#: widgets/hero-slider.php:179
+msgid "Provide Video description text"
+msgstr "تقديم نص وصف الفيديو"
+
+#: widgets/hero-1.php:202 widgets/hero-2.php:187 widgets/hero-3.php:205
+#: widgets/hero-slider.php:187
+msgid "Video Link"
+msgstr "رابط الفيديو"
+
+#: widgets/hero-1.php:204 widgets/hero-2.php:189 widgets/hero-3.php:207
+#: widgets/hero-slider.php:189
+msgid "provide video link here"
+msgstr "توفير رابط الفيديو هنا"
+
+#: widgets/hero-1.php:217
+msgid "Brand Images and Links"
+msgstr "صور العلامة التجارية والروابط"
+
+#: widgets/hero-1.php:225
+msgid "Left part Image 1"
+msgstr "الجزء الأيسر صورة 1"
+
+#: widgets/hero-1.php:235
+msgid "Left part Image 1 URL"
+msgstr "الجزء الأيسر عنوان URL للصورة 1"
+
+#: widgets/hero-1.php:237 widgets/hero-1.php:261 widgets/hero-1.php:285
+#: widgets/hero-1.php:309 widgets/hero-1.php:333 widgets/hero-1.php:357
+msgid "provide link here"
+msgstr "توفير الرابط هنا"
+
+#: widgets/hero-1.php:249
+msgid "Left part Image 2"
+msgstr "الجزء الأيسر صورة 2"
+
+#: widgets/hero-1.php:259
+msgid "Left part Image 2 URL"
+msgstr "الجزء الأيسر صورة 2 عنوان URL"
+
+#: widgets/hero-1.php:273
+msgid "Left part Image 3"
+msgstr "الجزء الأيسر صورة 3"
+
+#: widgets/hero-1.php:283
+msgid "Left part Image 3 URL"
+msgstr "الجزء الأيسر عنوان URL للصورة 3"
+
+#: widgets/hero-1.php:297
+msgid "Right part Image 1"
+msgstr "الجزء الأيمن صورة 1"
+
+#: widgets/hero-1.php:307
+msgid "Right part Image 1 URL"
+msgstr "الجزء الأيمن عنوان URL للصورة 1"
+
+#: widgets/hero-1.php:321
+msgid "Right part Image 2"
+msgstr "الجزء الأيمن صورة 2"
+
+#: widgets/hero-1.php:331
+msgid "Right part Image 2 URL"
+msgstr "الجزء الأيمن صورة 2 عنوان URL"
+
+#: widgets/hero-1.php:345
+msgid "Right part Image 3"
+msgstr "الجزء الأيمن صورة 3"
+
+#: widgets/hero-1.php:355
+msgid "Right part Image 3 URL"
+msgstr "الجزء الأيمن صورة 3 عنوان URL"
+
+#: widgets/hero-2.php:13
+msgid "Hero Section 2"
+msgstr "البطل القسم 2"
+
+#: widgets/hero-2.php:50
+msgid "Hero Section two Content"
+msgstr "محتوى القسم الثاني من البطل"
+
+#: widgets/hero-2.php:66 widgets/hero-3.php:84 widgets/hero-4.php:51
+#: widgets/hero-slider.php:66 widgets/how-it-works.php:201
+msgid "Sub Heading"
+msgstr "العنوان الفرعي"
+
+#: widgets/hero-2.php:68 widgets/hero-3.php:86 widgets/hero-4.php:53
+#: widgets/hero-slider.php:68
+msgid "Provide the sub heading text"
+msgstr "توفير نص العنوان الفرعي"
+
+#: widgets/hero-2.php:204 widgets/hero-3.php:222 widgets/hero-slider.php:204
+msgid "Keyword section"
+msgstr "قسم الكلمات المفتاحية"
+
+#: widgets/hero-2.php:219 widgets/hero-3.php:237 widgets/hero-slider.php:219
+msgid "Select Keywords (separated by | Sign)"
+msgstr "حدد الكلمات الرئيسية (مفصولة ب | توقيع)"
+
+#: widgets/hero-2.php:221 widgets/hero-3.php:239 widgets/hero-slider.php:221
+msgid "You can give multiple keywords separated by | Sign"
+msgstr "يمكنك إعطاء كلمات رئيسية متعددة مفصولة | وقع"
+
+#: widgets/hero-3.php:13
+msgid "Hero Section 3"
+msgstr "بطل القسم 3"
+
+#: widgets/hero-3.php:68
+msgid "Hero Section Three Content"
+msgstr "بطل القسم الثالث المحتوى"
+
+#: widgets/hero-3.php:257
+msgid "Select Slider destail "
+msgstr "حدد شريط التمرير destail "
+
+#: widgets/hero-3.php:274
+msgid "Freelancer Image"
+msgstr "صورة المستقل"
+
+#: widgets/hero-4.php:13
+msgid "Hero Section 4"
+msgstr "بطل القسم 4"
+
+#: widgets/hero-4.php:44
+msgid "Hero Section four Content"
+msgstr "محتوى القسم الرابع من البطل"
+
+#: widgets/hero-4.php:81
+msgid "Primary button text"
+msgstr "نص الزر الأساسي"
+
+#: widgets/hero-4.php:89
+msgid "Primary Button Link"
+msgstr "رابط الزر الأساسي"
+
+#: widgets/hero-4.php:91 widgets/hero-4.php:113
+msgid "Provide link here"
+msgstr "توفير الرابط هنا"
+
+#: widgets/hero-4.php:103
+msgid "Secondary button text"
+msgstr "نص الزر الثانوي بدون تسجيل الدخول"
+
+#: widgets/hero-4.php:111
+msgid "Secondary button link"
+msgstr "رابط الزر الثانوي"
+
+#: widgets/hero-4.php:125 widgets/testimonials.php:163
+msgid "Main Image"
+msgstr "نص الزر"
+
+#: widgets/hero-4.php:137
+msgid "Clients Content"
+msgstr "محتوى العملاء"
+
+#: widgets/hero-4.php:143
+msgid "Client Heading Text"
+msgstr "نص عنوان العميل"
+
+#: widgets/hero-4.php:151
+msgid "Clients Description Text"
+msgstr "نص وصف العملاء"
+
+#: widgets/hero-4.php:159
+msgid "Add clients logos"
+msgstr "إضافة شعارات العملاء"
+
+#: widgets/hero-slider.php:13
+msgid "Hero Section Slider"
+msgstr "عارض شرائح قسم الهيرو"
+
+#: widgets/hero-slider.php:50
+msgid "Hero Section Slider Content"
+msgstr "محتوى شريط تمرير قسم البطل"
+
+#: widgets/hero-slider.php:238
+msgid "Slider section"
+msgstr "قسم شريط التمرير"
+
+#: widgets/hero-slider.php:246
+msgid "Choose Image"
+msgstr "اختر صورة"
+
+#: widgets/how-it-works.php:13
+msgid "How It Works"
+msgstr "كيف تعمل"
+
+#: widgets/how-it-works.php:162 widgets/how-it-works2.php:162
+msgid "Section "
+msgstr "القسم 2"
+
+#: widgets/how-it-works.php:172
+msgid "Side Image Position"
+msgstr "موضع الصورة الجانبية"
+
+#: widgets/how-it-works.php:186
+msgid "Side Image"
+msgstr "صورة جانبية"
+
+#: widgets/how-it-works.php:217
+msgid "Want to show heading button"
+msgstr "الزر \"تريد إظهار العنوان\""
+
+#: widgets/how-it-works.php:269 widgets/how-it-works2.php:211
+msgid "Section List"
+msgstr "قائمة الأقسام"
+
+#: widgets/how-it-works2.php:13
+msgid "How It Works Two"
+msgstr "كيف يعمل اثنان"
+
+#: widgets/how-it-works2.php:186
+msgid "icon"
+msgstr "ايقونة"
+
+#: widgets/pricing.php:13
+msgid "Prcing Packages"
+msgstr "باقات المرافقة"
+
+#: widgets/pricing.php:195 widgets/pricing2.php:190
+msgid "Select Packages"
+msgstr "‫اختيار باقة الاشتراك"
+
+#: widgets/pricing.php:201 widgets/pricing2.php:196
+msgid "Selecte Package Type"
+msgstr "اختر نوع الحزمة"
+
+#: widgets/pricing.php:204 widgets/pricing2.php:199
+msgid "For Employers"
+msgstr "لأصحاب العمل"
+
+#: widgets/pricing.php:205 widgets/pricing2.php:200
+msgid "For Freelancers"
+msgstr "مهارات العاملين لحسابهم الخاص"
+
+#: widgets/pricing.php:213 widgets/pricing2.php:208
+msgid "Selecte SIze"
+msgstr "Selecte SIze"
+
+#: widgets/pricing.php:230 widgets/pricing2.php:225
+msgid "Employers Packages list"
+msgstr "قائمة باقات أصحاب العمل"
+
+#: widgets/pricing.php:248 widgets/pricing.php:336 widgets/pricing2.php:243
+#: widgets/pricing2.php:342
+msgid "Background Color"
+msgstr "صورة الخلفية"
+
+#: widgets/pricing.php:252 widgets/pricing.php:340 widgets/pricing2.php:247
+#: widgets/pricing2.php:346
+msgid "Black"
+msgstr "أسود"
+
+#: widgets/pricing.php:253 widgets/pricing.php:341 widgets/pricing2.php:248
+msgid "White"
+msgstr ""
+"ادخل الرمز السري الذي حصلت عليه من المتجر. في حين لصق نسخ الرجاء التاكد من "
+"عدم وجود مساحة بيضاء"
+
+#: widgets/pricing.php:261 widgets/pricing2.php:256
+msgid "Select Employer Packages"
+msgstr "اختر باقات صاحب العمل"
+
+#: widgets/pricing.php:271 widgets/pricing.php:358 widgets/pricing2.php:266
+#: widgets/pricing2.php:364
+msgid "Is featured"
+msgstr "مميز"
+
+#: widgets/pricing.php:284 widgets/pricing.php:371 widgets/pricing2.php:279
+#: widgets/pricing2.php:377
+msgid "Text to show on badge"
+msgstr "نص لإظهاره على الشارة"
+
+#: widgets/pricing.php:304 widgets/pricing2.php:299
+msgid "Employers Packages List"
+msgstr "قائمة باقات أصحاب العمل"
+
+#: widgets/pricing.php:317 widgets/pricing2.php:323
+msgid "Freelancers Packages"
+msgstr "باقات العاملين لحسابهم الخاص"
+
+#: widgets/pricing.php:349 widgets/pricing2.php:355
+msgid "Select Freelancer Packages"
+msgstr "اختر باقات المستقلين"
+
+#: widgets/pricing.php:391 widgets/pricing2.php:397
+msgid "Freelancer Packages List"
+msgstr "قائمة باقات المستقلين"
+
+#: widgets/pricing2.php:13
+msgid "Prcing Packages 2"
+msgstr "باقات التصفح 2"
+
+#: widgets/pricing2.php:347
+msgid "Colored"
+msgstr "ملون"
+
+#: widgets/services.php:13
+msgid "Services Section"
+msgstr "قسم خدمات التأجير"
+
+#: widgets/services.php:213
+msgid "Services List"
+msgstr "قائمه الخدمات"
+
+#: widgets/testimonials-2.php:13
+msgid "Testimonials Two"
+msgstr "شهادات اثنين"
+
+#: widgets/testimonials-2.php:169
+msgid "Quote Icon"
+msgstr "أيقونة الاقتباس"
+
+#: widgets/testimonials-2.php:178 widgets/testimonials.php:13
+#: widgets/testimonials.php:181
+msgid "Testimonials"
+msgstr "الشهادات - التوصيات"
+
+#: widgets/testimonials-2.php:186 widgets/testimonials.php:189
+msgid "User Image"
+msgstr "صورة المستخدم"
+
+#: widgets/testimonials-2.php:196 widgets/testimonials.php:215
+msgid "Review Description"
+msgstr "وصف المراجعة"
+
+#: widgets/testimonials-2.php:204 widgets/testimonials.php:223
+msgid "Customer Name"
+msgstr "خدمه العملاء"
+
+#: widgets/testimonials-2.php:212
+msgid "Designation"
+msgstr "المسمى الوظيفي"
+
+#: widgets/testimonials-2.php:221 widgets/testimonials.php:240
+msgid "Testimonial List"
+msgstr "قائمة الشهادات"
+
+#: widgets/testimonials.php:169
+msgid "main Image"
+msgstr "نص الزر"
+
+#: widgets/testimonials.php:199
+msgid "Provide Subheading text"
+msgstr "توفير نص العنوان الفرعي"
+
+#: widgets/testimonials.php:207
+msgid "Heading text"
+msgstr "نص العنوان"
+
+#: widgets/testimonials.php:231
+msgid "Customer Designation"
+msgstr "تعيين العملاء"
+
+#. Plugin Name of the plugin/theme
+msgid "Exertio Elementor Widgets"
+msgstr "Exertio Elementor Widgets"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.exertio-wp.com/"
+msgstr "https://www.exertio-wp.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin can only be used with Exertio - Freelance Marketplace and "
+"Directory WordPress Theme. Tis will add new sections and design blocks for "
+"the Elelmentor plugin to use in Exerti Theme."
+msgstr ""
+"لا يمكن استخدام هذا المكون الإضافي إلا مع Exertio - Freelance Marketplace و "
+"Directory WordPress Theme. سيضيف Tis أقساما جديدة وكتل تصميم للمكون الإضافي "
+"Elelmentor لاستخدامها في Exerti Theme."
+
+#. Author of the plugin/theme
+msgid "Scripts Bundle"
+msgstr "حزمه مخطوطات"
+
+#. Author URI of the plugin/theme
+msgid "http://scriptsbundle.com/"
+msgstr "http://scriptsbundle.com/"
